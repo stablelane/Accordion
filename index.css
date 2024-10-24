@@ -1,0 +1,70 @@
+html {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 600px;
+    max-width: 710px;
+    width: 80%;
+    height: 90vh;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    overflow: scroll;
+    padding: 4em 6em;
+}
+
+header h1 {
+    font-weight: 300;
+    margin: 0 0 0.3em;
+}
+
+header h3 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0 0 1em;
+}
+
+.accord {
+    position: relative;
+    cursor: pointer;
+}
+
+.accord p{
+    background-color: #2f2f2f;
+    color: #f2f2f2;
+    padding: 0.8em 1em;
+    border: none;
+    border-radius: 0.5em;
+    margin: 0 0 0.5em;
+}
+
+.accord img {
+    width: 20px;
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
+
+.content {
+    display: none;
+    border: #2f2f2f 2px solid;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 0 0 0.5em;
+}
+
+.show {
+    display: block;
+}
